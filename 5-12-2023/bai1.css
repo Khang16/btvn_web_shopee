@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+}
+.header{
+    background-color: #F1582B;
+    
+}
+.header .nav-trai ul li{
+    border-right: 2px solid white;
+    color: white;
+}
+.all-nav{
+    height: 34px;
+    width: auto;
+    
+}
+.fix-svg svg{
+    height: 30px;
+    width: 30px;
+  
+}
+.nav-trai a, .nav-phai a{
+    font-family:"Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    margin-top: 0;
+    font-size: 13px;
+    color: white;
+}
+.header-under{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.header-under svg{
+    height: 50px;
+    width: 162px;
+    object-fit:scale-down;
+    fill: #fff;
+    
+}
+.search-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.search-container input{
+    width: 840px;
+    height: 40px;
+}
+.search-container button{
+    position: absolute;
+    right: 0;
+    margin: 5px;
+    border: none;
+    background-color: #F1582B;
+}
+.fix-img{
+    height: 235px;
+    width: 797px;
+}
+.body-shopee{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 78%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.top-right-shopee{
+    width: 400px;
+    height: 240px;
+}
+.top-right-shopee img{
+    width:  398px;
+    height: 115px;
+    padding-left: 9px;
+    margin-bottom: 9px;
+}
+.sale-shopee{
+    
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+.sale-shopee .sale{
+    width: 100px;
+    height: 81px;
+}
+.sale-shopee a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.sale-shopee .box:hover{
+    transform: scale(1.1);
+}
+.sale  p{
+    font-size: 13px;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;;
+}
+.sale .box{
+    height: 45px;
+    width: 45px;
+    background-image: url("https://cf.shopee.vn/file/e4a404283b3824c211c1549aedd28d5f_xhdpi");
+    background-size: contain;
+    background-repeat: no-repeat
+}
+.danh-muc{
+    width: 78%;
+    margin: 0 auto;
+}
+.content_danhmuc{
+    display: flex;
+    justify-content: space-around;
+    gap: 3px
+    ;
+}
+.content_danhmuc .items_danhmuc{
+    width: 119px;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+    
+}
+.content_danhmuc img{
+    width: 83px;
+    height: 88px;
+}
+.items_danhmuc:hover{
+    border-right: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    cursor: pointer;
+}
